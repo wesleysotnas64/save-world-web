@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
-export const Container = styled.nav`
+export const Container = styled.footer`
   width: 100%;
-  height: 5rem;
+  height: 15vh;
   display: flex;
   padding: 0.5rem 0;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
-  background: #0055ff;
+  background: #3a7bfc;
 `;
 
 export const ContainerLogo = styled.div`
@@ -17,7 +18,7 @@ export const ContainerLogo = styled.div`
   justify-content: center;
 
   width: 20%;
-  height: 100%;
+  height: 50%;
 `;
 
 export const ContainerInfo = styled.div`
@@ -60,5 +61,5 @@ export const ContainerInfoDevelopers = styled.div`
 `;
 
 export const Logo = styled.img`
-  width: 80%;
+  width: 30%;
 `;
