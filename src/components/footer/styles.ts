@@ -49,7 +49,7 @@ export const ContainerInfoDevelopers = styled.div`
   width: 100%;
   height: 60%;
 
-  a{
+  a {
     text-decoration: none;
     color: inherit;
     margin: 0px 10px;

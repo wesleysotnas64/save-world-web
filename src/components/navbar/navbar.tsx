@@ -20,7 +20,9 @@ export const Navbar: React.FC = () => {
           <Styles.Link href="#content">Content</Styles.Link>
         </Styles.Section>
         <Styles.Section>
-          <Styles.Link id="special" href="#contact-us">Contact us</Styles.Link>
+          <Styles.Link id="special" href="#contact-us">
+            Contact us
+          </Styles.Link>
         </Styles.Section>
       </Styles.Sections>
     </Styles.Container>
