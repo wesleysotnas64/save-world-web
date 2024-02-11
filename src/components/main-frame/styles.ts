@@ -22,6 +22,10 @@ export const ContentContainer = styled.div`
     text-transform: uppercase;
   }
 
+  #saveOur {
+    font-weight: lighter;
+  }
+
   #world {
       margin: 0;
       font-size: 11rem;
