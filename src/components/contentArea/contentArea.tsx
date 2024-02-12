@@ -3,7 +3,7 @@ import * as Styles from "./styles";
 export const ContentArea: React.FC = () => {
     return (
         <Styles.Container>
-            <Styles.ContentAreaBlock>
+            <Styles.ContentAreaBlock id='about'>
                 <h2>Sobre</h2>
                 <Styles.LeftRigthInfoBlock>
                     <Styles.LeftInfoBlock>

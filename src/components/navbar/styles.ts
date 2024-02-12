@@ -16,23 +16,25 @@ export const Section = styled.li`
   margin: 0 4.5rem;
   list-style-type: none;
 
-  #special {
-    color: #fff;
-    padding: .5rem;
-    background-color: green;
-
+  .button-section {
+    color: #000;
+    text-decoration: none;
     &:hover {
-      background-color: #00A603;
+      color: green;
+      cursor: pointer;
     }
   }
-`;
 
-export const Link = styled.a`
-  color: #000;
-  text-decoration: none;
-  &:hover {
-    color: green;
-    cursor: pointer;
+  .special {
+    color: #fff;
+    padding: 0.5rem;
+    background-color: green;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #00a603;
+    }
   }
 `;
 
