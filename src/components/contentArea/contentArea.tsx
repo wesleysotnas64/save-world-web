@@ -3,13 +3,13 @@ import * as Styles from "./styles";
 export const ContentArea: React.FC = () => {
     return (
         <Styles.Container>
-            <Styles.ContentAreaBlock id='about'>
-                <h2>Sobre</h2>
-                <Styles.LeftRigthInfoBlock>
+            <Styles.ContentAreaBlock >
+                <Styles.LeftRigthInfoBlock id="sobre">
                     <Styles.LeftInfoBlock>
                         <img src="https://images.ctfassets.net/pdf29us7flmy/2C8EvrRqZZyciMJnECkj9M/39687489c5b65bae610645db058db177/CSR1_GettyImages-1096104342-Optimized_.jpg?w=720&q=100&fm=jpg" alt="Team" />
                     </Styles.LeftInfoBlock>
                     <Styles.RightInfoBlock>
+                        <h2>Sobre</h2>
                         <p>
                             Bem-vindo à nossa página!
                         </p>
@@ -26,9 +26,9 @@ export const ContentArea: React.FC = () => {
             </Styles.ContentAreaBlock>
 
             <Styles.ContentAreaBlock>
-                <h2>Nossa Fauna</h2>
-                <Styles.LeftRigthInfoBlock>
+                <Styles.LeftRigthInfoBlock id="fauna">
                     <Styles.LeftInfoBlock>
+                        <h2>Nossa Fauna</h2>    
                         <p>
                             Conheça os habitantes selvagens que compartilham nosso planeta!
                         </p>
@@ -43,13 +43,13 @@ export const ContentArea: React.FC = () => {
                 </Styles.LeftRigthInfoBlock>
             </Styles.ContentAreaBlock>
 
-            <Styles.ContentAreaBlock>
-                <h2>Nossa Flora</h2>
+            <Styles.ContentAreaBlock id="flora">
                 <Styles.LeftRigthInfoBlock>
                     <Styles.LeftInfoBlock>
                         <img src="https://observatorio3setor.org.br/wp-content/uploads/2023/05/AdobeStock_481256183.jpeg" alt="Nossa Fauna. Árvore da Amazônia." />
                     </Styles.LeftInfoBlock>
                     <Styles.RightInfoBlock>
+                        <h2>Nossa Flora</h2>
                         <p>
                             Dê as boas-vindas às maravilhas da nossa flora!
                         </p>
@@ -61,10 +61,10 @@ export const ContentArea: React.FC = () => {
                 </Styles.LeftRigthInfoBlock>
             </Styles.ContentAreaBlock>
 
-            <Styles.ContentAreaBlock>
-                <h2>Apoie a nossa causa</h2>
+            <Styles.ContentAreaBlock id="apoie">
                 <Styles.LeftRigthInfoBlock>
                     <Styles.LeftInfoBlock>
+                        <h2>Apoie a nossa causa</h2>
                         <p>
                             Junte-se a nós para proteger o meio ambiente!
                         </p>

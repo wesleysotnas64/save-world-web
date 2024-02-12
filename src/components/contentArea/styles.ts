@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const ContentAreaBlock = styled.div`
   width: 100%;
-  height: 32rem;
+  height: 30rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,9 +18,7 @@ export const ContentAreaBlock = styled.div`
   margin-top: 30px;
   margin-bottom: 30px;
 
-  h2{
-    margin: 10px;
-  }
+  
 `;
 
 export const LeftRigthInfoBlock = styled.div`
@@ -40,10 +38,15 @@ export const LeftInfoBlock = styled.div`
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-radius: 0px 100px 100px 100px;
+    border-radius: 0px 150px 150px 150px;
     
     img {
       width: 100%;
+    }
+
+    h2{
+      margin: 10px;
+      color: rgb(0,100,0);
     }
 
     p{
@@ -62,11 +65,16 @@ export const RightInfoBlock = styled.div`
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  border-radius: 100px 0px 100px 100px;
+  border-radius: 150px 0px 150px 150px;
 
   img {
     width: 100%;
   }
+
+  h2{
+      margin: 10px;
+      color: rgb(0,100,0);
+    }
 
   p{
     width: 90%;

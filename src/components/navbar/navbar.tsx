@@ -1,6 +1,7 @@
 import * as Styles from "./styles";
 import { Link } from "react-scroll";
 
+
 export const Navbar: React.FC = () => {
   return (
     <Styles.Container>
@@ -14,49 +15,49 @@ export const Navbar: React.FC = () => {
         <Styles.Section>
           <Link
             className="button-section"
-            to=""
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            Home
-          </Link>
-        </Styles.Section>
-        <Styles.Section>
-          <Link
-            className="button-section"
-            to="about"
+            to="sobre"
             spy={true}
             smooth={true}
             offset={0}
             duration={500}
           >
-            About
+            Sobre
           </Link>
         </Styles.Section>
         <Styles.Section>
           <Link
             className="button-section"
-            to=""
+            to="fauna"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={500}
           >
-            Content
+            Fauna
           </Link>
         </Styles.Section>
         <Styles.Section>
           <Link
-            className="special"
-            to=""
+            className="button-section"
+            to="flora"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={500}
           >
-            Contact us
+            Flora
+          </Link>
+        </Styles.Section>
+        <Styles.Section>
+          <Link
+            className="button-section"
+            to="apoie"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Apoie a nossa causa
           </Link>
         </Styles.Section>
       </Styles.Sections>
